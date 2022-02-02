@@ -1,0 +1,49 @@
+.task-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+form {
+  padding: 5px;
+  margin: 0 0 20px 0;
+}
+
+.input {
+  width: 300px;
+  outline: none;
+  padding: 10px;
+  border: none;
+  background-color: #79797a;
+  color: #e9e6f2;
+}
+
+input::placeholder{
+  color: white;
+}
+
+.button {
+  border:none;
+  padding: 10px;
+  background-color: #6842db;
+  color: #ffffff;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: #49387a;
+}
+
+li {
+  width: 450px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+  background-color: rgba(255,255,255,0.1);
+  padding: 10px;
+}
+
+.deletebtn:hover {
+  cursor: pointer;
+}
